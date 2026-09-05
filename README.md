@@ -96,4 +96,5 @@ source/drain junctions are visible.
 modifications.md              n-channel → p-channel command edits
 extract_metrics.tcl           svisual post-processing: Vt, SS, gm, I_D, I_off
 results/parameter_sweep.md    per-parameter reasoning and selected conditions
+figures/                      transfer curve and device structure renders
 ```
