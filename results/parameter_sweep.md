@@ -69,18 +69,16 @@ best on both.
 
 ## Selected condition
 
-| Parameter | Reference | Selected |
-|---|---|---|
-| LDD dose | 1e14 cm⁻² | 1e12 cm⁻² |
-| LDD energy | 10 keV | 1 keV |
-| S/D dose | 5e15 cm⁻² | 5e15 cm⁻² |
-| S/D energy | 10 keV | 1 keV |
-| RTA time | 10 s | 1 s |
+| Parameter | Selected |
+|---|---|
+| LDD dose | 1e12 cm⁻² |
+| LDD energy | 1 keV |
+| S/D dose | 5e15 cm⁻² |
+| S/D energy | 1 keV |
+| RTA time | 1 s |
 
-**`I_D/I_off` improved ~700×. SS improved ~16%.**
 
 Every parameter landed at the shallow, low-dose end of its swept range. At
 `Lg` = 250 nm the device is short-channel limited throughout, so anything that
-deepens a junction costs more in gate control than it returns in drive current.
-S/D dose was already at the optimum in the reference condition — the entire
+deepens a junction costs more in gate control than it returns in drive current. — the entire
 gain came from the four depth-related parameters.
