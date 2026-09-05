@@ -80,5 +80,4 @@ best on both.
 
 Every parameter landed at the shallow, low-dose end of its swept range. At
 `Lg` = 250 nm the device is short-channel limited throughout, so anything that
-deepens a junction costs more in gate control than it returns in drive current. — the entire
-gain came from the four depth-related parameters.
+deepens a junction costs more in gate control than it returns in drive current.
