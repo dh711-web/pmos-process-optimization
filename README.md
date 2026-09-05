@@ -55,11 +55,28 @@ deepens a junction costs more in gate control than it returns in drive current.
 
 ## Result
 
-Against the reference condition (LDD 1e14 cm⁻² / 10 keV, S/D 5e15 cm⁻² /
-10 keV, RTA 10 s):
+All three targets met at the selected condition:
 
-- **`I_D/I_off` improved ~700×**
-- **`SS` improved ~16%**
+| Metric | Target | Achieved |
+|---|---|---|
+| `I_D` | > 1e-5 A/µm | **1.08e-4 A/µm** |
+| `SS` | < 100 mV/dec | **83.9 mV/dec** |
+| `I_off` | < 1e-14 A/µm | **1.54e-16 A/µm** |
+| `I_D/I_off` | — | **7.0e11** |
+
+`I_off` came in two orders of magnitude below target, which is where most of
+the on/off ratio comes from — the drive current itself only clears its target
+by about 10×.
+
+![Transfer curve](figures/transfer_curve.png)
+
+Transfer characteristics at the selected condition. Both curves turn on under
+negative gate bias, confirming p-channel operation.
+
+![Device structure](figures/device_structure.png)
+
+Net active doping after the full flow — LDD extensions, spacers, and the
+source/drain junctions are visible.
 
 ## Limitations
 
